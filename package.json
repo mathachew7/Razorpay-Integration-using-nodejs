@@ -1,0 +1,20 @@
+{
+  "name": "Razorpay",
+  "version": "1.0.0",
+  "description": "this is normal payment integration using nodejs",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "mathachew",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.14.2",
+    "express": "^4.13.4",
+    "nodemon": "^2.0.3",
+    "razorpay": "^1.2.1",
+    "swig": "^1.4.2"
+  },
+  "keywords": []
+}
